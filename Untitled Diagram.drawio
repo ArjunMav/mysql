@@ -1,1 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T01:50:46.848Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="13.6.9" etag="UIuuppGGD99uur1RXFLn" type="github"><diagram id="EcwfBps_Wt6sAbgpc9Hz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-23T02:36:42.326Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="FnjIa338mkxu4Ob97gry" version="13.6.9" type="github">
+  <diagram id="EcwfBps_Wt6sAbgpc9Hz" name="Page-1">
+    <mxGraphModel dx="1733" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CijfTk94sdnZkvBbVIQh-2" value="Java系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-4" value="数据库" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-6" target="CijfTk94sdnZkvBbVIQh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-8" value="建立网络连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-7">
+          <mxGeometry x="-0.1167" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-6" value="MySQL驱动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-9" value="MySQL驱动的作用" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=bottom;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=31;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-12" value="跟数据库建立连接后才能执行SQL语句" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="510" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-13" value="Java系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-14" value="数据库" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-17" target="CijfTk94sdnZkvBbVIQh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-16" value="建立网络连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-15">
+          <mxGeometry x="-0.1167" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-17" value="MySQL驱动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;fontColor=none;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-18" target="CijfTk94sdnZkvBbVIQh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-20" value="执行SQL语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=none;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-19">
+          <mxGeometry x="0.1931" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-18" value="代码逻辑" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-21" value="数据库连接池是用来干什么的？" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="890" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-22" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="134" y="930" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-23" value="数据库" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="644" y="1060" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-26" target="CijfTk94sdnZkvBbVIQh-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="634" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-25" value="建立网络连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-24">
+          <mxGeometry x="-0.1167" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-26" value="MySQL驱动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="284" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;fontColor=none;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-29" target="CijfTk94sdnZkvBbVIQh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-28" value="执行SQL语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=none;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-27">
+          <mxGeometry x="0.1931" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-29" value="代码逻辑" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-30" value="Tomcat" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-31" value="线程" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="990" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-32" value="线程" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1070" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=none;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-33" target="CijfTk94sdnZkvBbVIQh-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-36" value="发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=none;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-35">
+          <mxGeometry x="0.376" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-33" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="970" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=none;" edge="1" parent="1" source="CijfTk94sdnZkvBbVIQh-37" target="CijfTk94sdnZkvBbVIQh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-39" value="发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=none;" vertex="1" connectable="0" parent="CijfTk94sdnZkvBbVIQh-38">
+          <mxGeometry x="0.008" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-37" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CijfTk94sdnZkvBbVIQh-40" value="多线程并发处理请求" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1360" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
